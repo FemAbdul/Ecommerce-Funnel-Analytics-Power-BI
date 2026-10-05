@@ -2,9 +2,6 @@
 
 The model follows a **star schema** design with **conformed dimensions** shared across fact tables, so metrics from different journey stages can be sliced by the same date, region, product and user.
 
-## Power BI model view
-
-![Power BI Model view](../images/data-model.png)
 
 ## Additions to the designed schema
 - `fact_financials`: gross_profit, marketing_cost_alloc, ops_cost_alloc
